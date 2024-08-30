@@ -1,0 +1,563 @@
+body{
+    direction: rtl;
+  position: relative;
+  height: 100%;
+}
+
+
+.navbar-nav{
+   justify-content: flex-end;
+  margin-right: 0 !important;
+}
+.navbar-nav li a{
+    color: black !important;
+}
+.navbar-nav .list{
+    width: 40px;
+    font-size: 40px;
+   
+}
+.navbar-brand{
+  
+}
+.navbar .modal{
+    width: 100%;
+}
+.navbar .modal .row{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .modal .row .inpu{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.navbar .modal .row .img{
+    width: 40%;
+}
+.navbar .modal .row .img img{
+    width: 100%;
+}
+
+
+
+@media (max-width:750px){
+    .collapse{
+        display: none;
+    }
+    .navbar-nav .list{
+       font-size: 20px;
+       width: 20%;
+    }
+}
+.row{
+   
+margin-bottom: 70px;
+   justify-content: space-around;
+  width: 95%;
+ margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.row .text{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+  
+  
+}
+.row h1{
+    color: #F4A825;
+    font-size: 60px;
+}
+.row h1 span{
+    color: #3485B9;
+}
+.row .text p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.row .text .btn{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.row .img-box{
+    width: 30%;
+    height: 70%;
+    text-align: center;
+   
+}
+.row .img-box img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:750px)  {
+    .navbar{
+        width: 100%;
+    }
+    .row .text{
+        width: 100%;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .row .text h1{
+        width: 100%;
+        font-size: 45px;
+    }
+    .row .text p{
+        font-size: 18px;
+    }
+    .row .img-box{
+        width: 100%;
+    }
+}
+.news{
+    padding-right: 15px;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.news .roww{
+    display: flex;
+    align-items: center;
+}
+.news .roww .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.news .roww .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.news .rowww {
+    display: flex;
+    justify-content: space-around;
+    align-items: center !important;
+    margin-top: 35px;
+    
+   
+}
+.news .rowww .item{
+    width: 70%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.news .rowww .item .img{
+    width: 100%;
+}
+.news .rowww .item .img img{
+    width: 100%;
+}
+.news .rowww .item p{
+    text-align: center;
+    font-size: 15px;
+}
+@media (max-width:750px){
+    .news .roww{
+        justify-content: center;
+    }
+    .news .roww .color{
+        display: none;
+    }
+    .news .roww p{
+        text-align: center;
+        font-size: 55px;
+    }
+    .news .rowww{
+        display: block;
+    }
+    .news .rowww .item{
+        width: 90%;
+        margin-top: 15px;
+        border: 2px solid #3485B9;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+}
+.service{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service .text-box {
+    display: flex;
+    
+}
+.service .text-box .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.service .text-box .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.service .card{
+    margin-left: 10px;
+    margin-right: 10px;
+   padding: 10px;
+    justify-content: center;
+    border: none;
+}
+.service .card .img-box1{
+   width: 40%;
+background-image: url(../img/Rectangle\ 1786.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15px;
+text-align: start;
+}
+
+   
+.service .card .img-box2{
+   width: 40%;
+background-image: url(../img/Rectangle\ 1787.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15px;
+text-align: start;
+}
+
+   
+.service .card .img-box3{
+   width: 40%;
+background-image: url(../img/Rectangle\ 1788.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15px;
+text-align: start;
+}
+
+   
+.service .card .img-box4{
+   width: 40%;
+background-image: url(../img/Rectangle\ 1789.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15px;
+text-align: start;
+}
+
+.service .card .text {
+    text-align:start;
+}  
+.service .card .text h4{
+    font-size: 18px;
+} 
+.service .card .text p{
+    color: #919191;
+    font-size: 15px;
+}
+@media (max-width:750px){
+    .service .text-box .color{
+display: none;
+    }
+
+    .service .text-box .text p{
+        font-size: 35px;
+        text-align: center;
+        background-color: #F4A825;
+    }
+    .service .card-group{
+        display: block !important;
+        justify-content: center;
+    } 
+    .service .card{
+        margin-top: 15px;
+        border: #F4A825 2px solid;
+        padding: 10px;
+        text-align: center;
+    }
+    .img-box1{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+.grade{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.grade .img{
+    width: 90%;
+    text-align: center;
+}
+.grade .img img {
+    width: 100%;
+}
+.branch{
+    margin-top: 50px;
+}
+.text-box{
+    display: flex;
+}
+.branch .text-box .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.branch .text-box .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.branch .card-group{
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.branch .card{
+    width: 30% ;
+    height: 70%;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.branch .card-group .card .img{
+    width: 100%;
+    height: 100%;
+}
+.branch .card-group .card .img img{
+    width: 100%;
+    height: 50%;
+}
+.branch .card-group .card .color1{
+    background-color: #07BEF8;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    height: 50px;
+}
+.branch .card-group .card .color2{
+    background-color: #F86707;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    height: 50px;
+}
+.branch .card-group .card .color3{
+    background-color:#00D586;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    height: 50px;
+}
+@media(max-width:750px){
+    .branch{
+        display: block;
+    }
+    .branch .color{
+        display: none;
+    }
+    .branch .text p{
+        text-align: center;
+        font-size: 50px;background-color: #F4A825;
+        font-size: 50px;
+
+    }
+    .branch .card-group{
+     
+       width: 100%;
+       
+    }
+    .branch .card{
+  width: 80%;
+   margin: 25px;
+   border:white 2px solid;
+  
+    }
+}
+.lec{
+    margin-top: 50px;
+}
+.text-box{
+    display: flex;
+}
+.lec .text-box .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.lec .text-box .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.lec .card-group{
+    border: none !important;
+  padding: 0 10%;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+.lec .card-group .card{
+width: 40%;
+text-align: center;
+margin: 0px 15px;
+border-radius: 15px;
+padding-bottom: 10px;
+border: none;
+}
+.lec .card-group .card .img{
+text-align: center;
+width: 100%;
+border-radius: 15px;
+}
+.lec .card-group .card .img img {
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+@media (max-width:750px){
+    .lec .text-box{
+        display: block;
+    }
+    .lec .text-box .color{
+        display: none;
+    }
+    .lec .text-box .text p{
+        font-size: 40px;
+        text-align: center;
+        margin: 0;
+        background-color: #F4A825;
+    }
+    .lec .card-group{
+        display: block;
+    }
+    .lec .card-group .card{
+        width: 80%;
+        margin: 20px 0px;
+    }
+}
+.our-work{
+    margin-top: 50px;
+}
+.text-box{
+    display: flex;
+}
+.our-work .text-box .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.our-work .text-box .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.our-work .card-group{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.our-work .card{
+    width: 15%;
+    border: none;
+    padding: 10px;
+}
+.connect{
+    margin-top: 50px;
+}
+.text-box{
+    display: flex;
+}
+.connect .text-box .color{
+    width: 5px;
+    height: 40px;
+    background-color: #3485B9;
+    border-radius: 90px;
+}
+.connect .text-box .text p{
+    font-size: 20px;
+    margin-right: 7px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.connect .row{
+    display: flex;
+   justify-content: space-around;
+    width: 100%;
+   margin-top: 10px;
+}
+.connect .row .input{
+    width: 40%;
+  
+}
+.connect .row .input input{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.connect .row .img{
+    width:50%;
+    height: 100%;
+}
+.connect .row .img img {
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color: #3485B9;
+    margin: 0;
+    height: 50vh;
+    text-align: center;
+   padding: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .row .sec1{
+    width: 20%;
+}
+.footer .row .sec1 p{
+    color: white;
+}
+.footer .row .sec2{
+    width: 20%;
+}
+.footer .row .sec2 p{
+    color: white;
+}
+.footer .row .sec3{
+    width: 20%;
+}
+.footer .row .sec3 p{
+    color: white;
+}
+.footer .row .sec4{
+    width: 20%;
+}
+.footer .row .sec4 p{
+    color: white;
+}
+.footer .row .sec4 .btn{
+       background-color: #F4A825;
+}
+.end{
+   
+   
+}
+.end p{
+    color: white;
+}
